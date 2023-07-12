@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "FabricatedBackpacks",
+  "version": "1.0.0",
+  "name": "Fabricated Backpacks",
+  "description": "",
+  "authors": [
+    "Retro-TBG",
+    "Scoterbium"
+  ],
+  "contact": {
+    "website": "https://github.com/Retro-TBG/Fabricated-Backpacks",
+    "repo": "https://github.com/Retro-TBG/Fabricated-Backpacks"
+  },
+  "license": "MIT",
+  "icon": "assets/FabricatedBackpacks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.retrotbg.fabricatedbackpacks.client.FabricatedBackpacksClient"
+    ],
+    "main": [
+      "org.retrotbg.fabricatedbackpacks.FabricatedBackpacks"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
